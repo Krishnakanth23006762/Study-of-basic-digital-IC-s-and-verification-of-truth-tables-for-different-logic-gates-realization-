@@ -40,27 +40,29 @@ Y= A⊕B
 Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed. If the output is 1, then the bulb glows. Check all the gates following the same procedure.
 
 # Program:
-
-
-![DE EX01](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/b304f9a2-41e0-4ec6-bb6e-f30f75aedbb0)
-
+```
+module combinationalcircuit(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
+wire x1,x2,x3,x4,x5;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign F1=x1|x2|x3|x4|x5;
+endmodule
+```
 
 # Truthtable:
 
-
 ![DE EX01-2](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/6cb81dac-325d-4077-a5f8-d256fe8366d3)
 
-
 # RTL realization:
-
-
 ![DE EX01 RTL REL](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/cf3f46fe-b553-49ca-b26e-6aac9ee5c529)
-
 
 # Output Waveform:
 ![image](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/2f222206-b950-4106-ab36-b754c4dda9f2)
-
-
 
 # Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
