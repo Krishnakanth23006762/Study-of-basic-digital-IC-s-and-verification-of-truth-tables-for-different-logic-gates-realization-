@@ -58,9 +58,8 @@ Connect the supply (+5V) to the circuit Switch ON the main switch Press the swit
 
 
 # Output Waveform:
+![image](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/2f222206-b950-4106-ab36-b754c4dda9f2)
 
-
-![DE EX01 OUTPUT](https://github.com/Krishnakanth23006762/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138849446/6a4ecbbc-bc47-4110-97f6-2fa7f53e63bb)
 
 
 # Result:
