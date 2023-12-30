@@ -1,7 +1,7 @@
 
 # B KRISHNAKANTH
 # RegisterNumber: 23006762
-# experiment-3 :Study of basic digital IC s and verification of truth tables for different logic gates realization
+# experiment-1 :Study of basic digital IC s and verification of truth tables for different logic gates realization
 
 # AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
