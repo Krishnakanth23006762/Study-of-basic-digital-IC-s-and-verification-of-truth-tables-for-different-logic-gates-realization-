@@ -1,6 +1,6 @@
 
-# B KRISHNAKANTH
-# RegisterNumber: 23006762
+### B KRISHNAKANTH
+### RegisterNumber: 212223230109
 # experiment-1 :Study of basic digital IC s and verification of truth tables for different logic gates realization
 
 # AIM:
